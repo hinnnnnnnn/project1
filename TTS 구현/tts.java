@@ -1,4 +1,3 @@
-    //tts
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void speakOut(){
         CharSequence text = busnum.getText();
@@ -36,3 +35,8 @@
             Log.e("TTS", "Initialization Failed!");
         }
     }
+
+
+// private texttospeech tts;를 통해 tts를 사용할 수 있게 환경을 만듦
+// tts 언어를 한국어로 설정한 후 speakout 함수를 통해 텍스트를 음성으로 출력함
+// speakout 함수는 busnum에서 텍스트를 입력받아 해당 텍스트를 음성으로 출력하게 하는 함수
