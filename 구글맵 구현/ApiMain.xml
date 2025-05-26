@@ -1,0 +1,5 @@
+<meta-data
+    android:name="com.google.android.geo.API_KEY"
+    android:value="AIzaSyDLSp0pNOUNIGZntJ5Eqhh7W0ETpwcPw" />
+
+// 구글 맵 API 키 삽입
